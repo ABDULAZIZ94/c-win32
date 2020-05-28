@@ -1,7 +1,6 @@
 #include "resource.h"
 
 IDR_MYMENU MENU
-
 BEGIN
     POPUP "&File"
     BEGIN
@@ -15,3 +14,4 @@ BEGIN
     END
 END
 
+IDI_MYICON ICON "menu_one.ico"
