@@ -1,4 +1,4 @@
-# this repo abou win32 programming
+# this repo about win32 programming
 
 # sources
 http://www.winprog.org/tutorial/start.html
