@@ -1,21 +1,21 @@
+﻿#include "Windows.h"
 #include "resource.h"
 
-IDR_MYMENU MENU
+IDR_MYMENU MENU DISCARDABLE 
 BEGIN
     POPUP "&File"
     BEGIN
         MENUITEM "&Exit", ID_FILE_EXIT
     END
 
-    POPUP "&Stuff"
+    POPUP "&Help"
     BEGIN
-        MENUITEM "&Go", ID_STUFF_GO
-        MENUITEM "G&o somewhere else", 0, GRAYED
+        MENUITEM "&About", ID_HELP_ABOUT
     END
 END
 
 IDD_ABOUT DIALOG DISCARDABLE  0, 0, 239, 66
-STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+STYLE  DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "My About Box"
 FONT 8, "MS Sans Serif"
 BEGIN
