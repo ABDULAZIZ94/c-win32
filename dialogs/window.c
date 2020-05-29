@@ -77,8 +77,8 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
                 AppendMenu(hMenu, MF_STRING | MF_POPUP, (UINT)hSubMenu, "&File");
 
                 hSubMenu = CreatePopupMenu();
-                AppendMenu(hSubMenu, MF_STRING, ID_STUFF_GO, "&Go");
-                AppendMenu(hMenu, MF_STRING | MF_POPUP, (UINT)hSubMenu, "&Stuff");
+                AppendMenu(hSubMenu, MF_STRING, ID_HELP_ABOUT, "&About");
+                AppendMenu(hMenu, MF_STRING | MF_POPUP, (UINT)hSubMenu, "&Help");
 
                 SetMenu(hwnd, hMenu);
 
