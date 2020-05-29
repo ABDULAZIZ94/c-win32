@@ -31,3 +31,47 @@ win32++
     windres menu_one.rc -o menu_one_res.o //produce menu_one_res.o
     gcc -c menu_one.c //produce menu_one.o
     gcc menu_one.o menu_one_res.o -o menu_one.exe
+
+# rc file predefined symbol
+https://docs.microsoft.com/en-us/cpp/windows/win32-predefined-symbols?view=vs-2019
+https://docs.microsoft.com/en-us/previous-versions/cc194804(v=msdn.10)?redirectedfrom=MSDN
+
+main links
+    
+    https://docs.microsoft.com/en-us/windows/win32/menurc/about-resource-files?redirectedfrom=MSDN
+
+
+statements
+    
+    https://docs.microsoft.com/en-us/windows/win32/menurc/resource-definition-statements
+
+preprocessors
+
+    https://docs.microsoft.com/en-us/windows/win32/menurc/preprocessor-directives
+
+preprocessor operator
+
+    https://docs.microsoft.com/en-us/windows/win32/menurc/preprocessor-operators
+
+comments
+
+    https://docs.microsoft.com/en-us/windows/win32/menurc/comments
+
+predefined macros
+
+    https://docs.microsoft.com/en-us/windows/win32/menurc/predefined-macros
+
+
+pragma directives
+
+    https://docs.microsoft.com/en-us/windows/win32/menurc/pragma-directives
+
+# style
+
+window
+
+    https://docs.microsoft.com/en-us/windows/win32/winmsg/window-styles
+
+dialog boxes
+
+    https://docs.microsoft.com/en-us/windows/win32/dlgbox/about-dialog-boxes?redirectedfrom=MSDN

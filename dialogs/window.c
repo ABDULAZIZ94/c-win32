@@ -13,9 +13,31 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
             {
                 case ID_FILE_EXIT:
                     PostMessage(hwnd, WM_CLOSE, 0, 0);
-                break;
-                case ID_STUFF_GO:
-
+                    break;
+                case ID_STUFF_GO:break;
+                case IDOK:
+                    EndDialog(hwnd, IDOK);
+                    break;
+                case IDCANCEL:
+                    EndDialog(hwnd, IDCANCEL);
+                    break;
+                case ID_HELP_ABOUT:
+                {
+                    int ret = DialogBox(GetModuleHandle(NULL), 
+                        MAKEINTRESOURCE(IDD_ABOUT), hwnd, WndProc);
+                    if(ret == IDOK){
+                        MessageBox(hwnd, "Dialog exited with IDOK.", "Notice",
+                            MB_OK | MB_ICONINFORMATION);
+                    }
+                    else if(ret == IDCANCEL){
+                        MessageBox(hwnd, "Dialog exited with IDCANCEL.", "Notice",
+                            MB_OK | MB_ICONINFORMATION);
+                    }
+                    else if(ret == -1){
+                        MessageBox(hwnd, "Dialog failed!", "Error",
+                            MB_OK | MB_ICONINFORMATION);
+                    }
+                }
                 break;
             }
             break;
