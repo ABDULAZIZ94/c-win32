@@ -1,8 +1,12 @@
 # this repo about win32 programming
 
 # sources
+
 http://www.winprog.org/tutorial/start.html
+
 https://www.transmissionzero.co.uk/computing/win32-apps-with-mingw/
+
+http://www.alsprogrammingresource.com/win32_links.html
 
 
 # other platform (linux osx)
@@ -33,8 +37,8 @@ win32++
     gcc menu_one.o menu_one_res.o -o menu_one.exe
 
 # rc file predefined symbol
-https://docs.microsoft.com/en-us/cpp/windows/win32-predefined-symbols?view=vs-2019
-https://docs.microsoft.com/en-us/previous-versions/cc194804(v=msdn.10)?redirectedfrom=MSDN
+[predefined symbol](https://docs.microsoft.com/en-us/cpp/windows/win32-predefined-symbols?view=vs-2019)
+[rev ver](https://docs.microsoft.com/en-us/previous-versions/cc194804(v=msdn.10)?redirectedfrom=MSDN)
 
 main links
     
