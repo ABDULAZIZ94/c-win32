@@ -4,4 +4,4 @@
   windres [options] [input-file] [output-file]
   rc , res, coff
 
-  windres -v -J rc -i res.rc -o res.o
+windres -v -J rc -i res.rc -o res.o 

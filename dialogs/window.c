@@ -129,7 +129,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
   wc.lpszMenuName = MAKEINTRESOURCE(IDR_MYMENU);
   wc.lpszClassName = g_szClassName;
   wc.hIcon = LoadIcon(GetModuleHandle(NULL), MAKEINTRESOURCE(IDI_MYICON));
-  wc.hIconSm = (HICON)LoadImage(GetModuleHandle(NULL), MAKEINTRESOURCE(IDI_MYICON), IMAGE_ICON, 16, 16, 0);
+  wc.hIconSm = (HICON)LoadImage(GetModuleHandle(NULL), 
+  MAKEINTRESOURCE(IDI_MYICON), IMAGE_ICON, 16, 16, 0);
 
   if (!RegisterClassEx(&wc))
   {
