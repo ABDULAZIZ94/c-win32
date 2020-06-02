@@ -12,6 +12,7 @@ https://winapi.programmingpedia.net/
 
 http://zetcode.com/gui/winapi/main/
 
+http://www.smorgasbordet.com/pellesc/
 
 
 # other platform (linux osx)
