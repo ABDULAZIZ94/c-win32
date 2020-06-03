@@ -85,3 +85,8 @@ window
 dialog boxes
 
     https://docs.microsoft.com/en-us/windows/win32/dlgbox/about-dialog-boxes?redirectedfrom=MSDN
+
+# debuging
+
+    void DebugBreak();
+    __DebugBreak();
