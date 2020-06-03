@@ -14,6 +14,10 @@ http://zetcode.com/gui/winapi/main/
 
 http://www.smorgasbordet.com/pellesc/
 
+#MSDN
+
+https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program
+
 
 # other platform (linux osx)
 https://tronche.com/gui/x/xlib/
