@@ -90,3 +90,4 @@ dialog boxes
 
     void DebugBreak();
     __DebugBreak();
+    key equivalent: var_dump, debugger
