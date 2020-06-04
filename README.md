@@ -102,3 +102,7 @@ dialog boxes
     winsocs programming
     
     linux: socket programming
+    
+ # multithreading
+    install mingw32-pthreads-w32
+    add to linker options -pthread
