@@ -22,6 +22,11 @@ https://docs.microsoft.com/en-us/windows/win32/api/
 # socket programming
 https://docs.microsoft.com/en-us/windows/win32/winsock/complete-client-code
 
+https://docs.microsoft.com/en-us/windows/win32/winsock/complete-server-code
+
+https://docs.microsoft.com/en-us/windows/win32/http/http-server-sample-application
+
+
 # other platform (linux osx)
 https://tronche.com/gui/x/xlib/
 
