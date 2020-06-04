@@ -96,3 +96,9 @@ dialog boxes
     __DebugBreak();
     key equivalent: var_dump, debugger
     https://docs.microsoft.com/en-us/windows/win32/debug/debugging-functions
+    
+ # comunication
+    
+    winsocs programming
+    
+    linux: socket programming
