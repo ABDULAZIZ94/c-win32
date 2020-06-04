@@ -117,3 +117,8 @@ https://docs.microsoft.com/en-us/windows/win32/services/using-services
 https://www.tutorialspoint.com/windows-thread-api-in-the-c-program
 
 https://docs.microsoft.com/en-us/cpp/parallel/sample-multithread-c-program?view=vs-2019
+
+# visual studio technique
+converting console project into window project
+https://stackoverflow.com/questions/3884124/convert-a-console-app-to-a-windows-app
+
