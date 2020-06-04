@@ -19,6 +19,8 @@ http://www.smorgasbordet.com/pellesc/
 https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program
 https://docs.microsoft.com/en-us/windows/win32/api/
 
+# socket programming
+https://docs.microsoft.com/en-us/windows/win32/winsock/complete-client-code
 
 # other platform (linux osx)
 https://tronche.com/gui/x/xlib/
