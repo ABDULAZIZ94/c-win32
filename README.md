@@ -17,6 +17,7 @@ http://www.smorgasbordet.com/pellesc/
 #MSDN
 
 https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program
+https://docs.microsoft.com/en-us/windows/win32/api/
 
 
 # other platform (linux osx)
