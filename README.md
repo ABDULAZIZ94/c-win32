@@ -110,6 +110,8 @@ dialog boxes
     install mingw32-pthreads-w32
     add to linker options -pthread
 
-[multithreading in windows](https://docs.microsoft.com/en-us/windows/win32/procthread/creating-threads)
+https://docs.microsoft.com/en-us/windows/win32/procthread/creating-threads
 
-[service in windows](https://docs.microsoft.com/en-us/windows/win32/services/using-services)
+https://docs.microsoft.com/en-us/windows/win32/services/using-services
+
+https://docs.microsoft.com/en-us/cpp/parallel/sample-multithread-c-program?view=vs-2019
